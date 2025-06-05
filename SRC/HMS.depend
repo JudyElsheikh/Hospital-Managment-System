@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1716666169 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\medical_info.cpp
+	"Medical_info.h"
+
+1716666344 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\medical_info.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+
+1716679883 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\labtech.cpp
+	"labTech.h"
+
+1716673924 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\labtech.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+	<limits>
+	"Patient.h"
+
+1716669372 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\patient.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+	"User.h"
+	"Medical_info.h"
+	"Appointments.h"
+
+1716669990 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\user.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+
+1716680518 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\appointments.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+
+1716680448 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\patient.cpp
+	"Patient.h"
+	"Appointments.h"
+
+1716670303 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\user.cpp
+	"User.h"
+
+1716680448 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\appointments.cpp
+	"Appointments.h"
+
+1716669219 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\doctor.cpp
+	"doctor.h"
+
+1716669333 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\doctor.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+	"User.h"
+	"schedule.h"
+
+1716666413 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\schedule.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+
+1716666169 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\schedule.cpp
+	"schedule.h"
+
+1716679629 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+	<limits>
+	"Appointments.h"
+	"doctor.h"
+	"labTech.h"
+	"Medical_info.h"
+	"Patient.h"
+	"schedule.h"
+	"User.h"
+	"Human_resources.h"
+
+1716678891 source:c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\human_resources.cpp
+	"Human_resources.h"
+	"doctor.h"
+	<limits>
+	<string>
+
+1716677640 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\src\human_resources.h
+	"doctor.h"
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+
+1716677847 c:\users\judye\onedrive\desktop\uni\semester 2\programming\hospital\hms\include\human_resources.h
+	<iostream>
+	<string>
+	<fstream>
+	<set>
+	<iomanip>
+	<windows.h>
+	<limits>
+	"doctor.h"
+	"Patient.h"
+	"Appointments.h"
+

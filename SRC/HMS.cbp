@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HMS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="HMS/include/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/HMS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="HMS/include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/HMS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="HMS/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../Final/Dentistry.txt" />
+		<Unit filename="../Final/Dermatology.txt" />
+		<Unit filename="../Final/Doctors.txt" />
+		<Unit filename="../Final/ENT.txt" />
+		<Unit filename="../Final/General surgery.txt" />
+		<Unit filename="../Final/Gynecology.txt" />
+		<Unit filename="../Final/Internal medicine.txt" />
+		<Unit filename="../Final/Patients.txt" />
+		<Unit filename="../Final/Physical medicine.txt" />
+		<Unit filename="../Final/counter file.txt" />
+		<Unit filename="include/Appointments.h" />
+		<Unit filename="include/Human_resources.h" />
+		<Unit filename="include/Medical_info.h" />
+		<Unit filename="include/Patient.h" />
+		<Unit filename="include/User.h" />
+		<Unit filename="include/doctor.h" />
+		<Unit filename="include/labTech.h" />
+		<Unit filename="include/schedule.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Appointments.cpp" />
+		<Unit filename="src/Human_resources.cpp" />
+		<Unit filename="src/Medical_info.cpp" />
+		<Unit filename="src/Patient.cpp" />
+		<Unit filename="src/User.cpp" />
+		<Unit filename="src/counter file.txt" />
+		<Unit filename="src/doctor.cpp" />
+		<Unit filename="src/labTech.cpp" />
+		<Unit filename="src/schedule.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
